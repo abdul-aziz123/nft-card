@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body
+    class="bg-[#0d192b] min-h-screen flex justify-center items-center text-lg"
+  >
+    <div class="card rounded-md w-80 p-4 bg-[#14253d] flex flex-col">
+      <img
+        src="images/image-equilibrium.jpg"
+        class="card-img rounded-md w-full"
+      />
+      <a class="card-heading text-white my-3 font-semibold text-base" href="#"
+        >Equilibrium #3429</a
+      >
+      <p class="card-text text-base text-[#8bacda]">
+        Our Equilibrium collection promotes balance and calm
+      </p>
+      <div class="card-value flex justify-between text-[0.65rem]">
+        <span class="eth text-[#00fff7] inline-flex"
+          ><img src="images/icon-ethereum.svg" class="mr-2" />0.041ETH</span
+        ><span class="clk text-[#8bacda] inline-flex"
+          ><img src="images/icon-clock.svg" class="mr-2" />3Days left</span
+        >
+      </div>
+      <hr class="m-2" />
+      <div class="card-footer text-xs inline-flex items-center gap-2">
+        <span
+          ><img src="images/image-avatar.png" class="w-6" /><span
+            style="color: hsl(215, 51%, 70%)"
+            >Creation of</span
+          >
+          Abdul Aziz</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
